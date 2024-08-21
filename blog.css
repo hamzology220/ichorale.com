@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+.navbar-nav {
+  font-family: Gill sans;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+}
+
+a{
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.navbar{
+  box-shadow: 0 12px 20px rgb(0, 0, 0, 0.2);
+}
+section{
+  padding-top: 80px;
+  padding-bottom: 200px;
+  z-index: 2;
+  position: relative;
+}
+.coverbg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay{
+position: absolute;
+}
